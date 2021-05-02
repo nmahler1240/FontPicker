@@ -1,0 +1,107 @@
+
+*{
+background-color: #f7c197;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+ li a {
+  background-color: grey;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none
+ }
+ .active {
+   background-color: white;
+   color: grey;
+ }
+
+ li a:hover {
+   transition-duration: .04s;
+   background-color: white;
+ }
+ .btn1 {
+   border-radius: 4px;
+   background-color: inherit;
+   border: solid 3px;
+   text-align: center;
+   font-size: 28px;
+   padding: 20px;
+   width: 200px;
+   transition: all 0.5s;
+   cursor: pointer;
+   margin: 5px;
+  }
+
+ .btn1 span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.5s;
+ }
+
+ .btn1 span:after {
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.2s;
+ }
+
+ .btn1:hover span {
+   padding-right: 25px;
+ }
+
+ .btn1:hover span:after {
+   opacity: 1;
+   right: 0;
+ }
+ .btn1:active {
+  background-color: inherit;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+ }
+ .container {
+  text-align: center;
+  height: 50%;
+  width: 25%;
+  padding: 10px;
+  margin: auto;
+  flex-grow: 1;
+
+ }
+ .picker {
+   font-size: 50px;
+   text-align: center;
+   font-family: monospace;
+   flex-grow: 1;
+
+ }
+ .font {
+   font-family: sans-serif;
+   font-size: 35px;
+   flex-grow: 1;
+ }
+ .ex-txt {
+   height: 200px;
+   width: 50%;
+   margin: auto;
+   padding: 10px;
+   border: solid black 2px;
+   outline: none;
+   margin-left: auto;
+   flex-grow: 1;
+   resize: none;
+   display: flex;
+   align-items: center;
+ }
