@@ -19,4 +19,4 @@ function getRandomNumber() {
 }
 
 
-//Need to work on not getting numbers that are not in and array ex.13 14
+//Only gets up to 15
