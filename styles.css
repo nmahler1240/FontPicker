@@ -92,12 +92,10 @@ li {
  .picker {
    font-size: 50px;
    text-align: center;
-   font-family: monospace;
    flex-grow: 1;
 
  }
  .font {
-   font-family: sans-serif;
    font-size: 35px;
    flex-grow: 1;
  }
