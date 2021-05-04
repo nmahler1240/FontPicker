@@ -1,5 +1,5 @@
 const fonts = ["Arial, sans-serif", "Helvetica, sans-serif", "Verdana, sans-serif", "Trebuchet MS, sans-serif", "Gill Sans, sans-serif", "Noto Sans, sans-serif", "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif", "Times, Times New Roman, serif", "Georgia, serif", "Andale Mono, monospace", "Courier, monospace", "Apple Chancery, cursive", "Snell Roundhand, cursive", "Impact, fantasy", "Luminari, fantasy", "Jazz LET, fantasy", "Blippo, fantasy", "Trattatello, fantasy"];
-//11fonts
+//18fonts
 const btn = document.getElementById("btn");
 const name = document.querySelector('.name');
 
@@ -19,4 +19,4 @@ function getRandomNumber() {
 }
 
 
-//Need to work on not getting numbers that are not in and array ex.13 14
+//Only gets up to 15
