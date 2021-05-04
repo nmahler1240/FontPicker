@@ -4,7 +4,7 @@ const btn = document.getElementById("btn");
 const name = document.querySelector('.name');
 
 btn.addEventListener("click", function(){
-//get random number 0-10
+
 
 const randomNumber = getRandomNumber();
 console.log(randomNumber);
